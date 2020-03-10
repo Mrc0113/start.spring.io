@@ -780,8 +780,7 @@
           {
             "id": "solace",
             "name": "Solace PubSub+",
-            "description": "Connect to a Solace PubSub+ Advanced Event Broker using the Solace JMS support to send and receive messages.",
-            "versionRange": "2.1.0.RELEASE",
+            "description": "Connect to a Solace PubSub+ Advanced Event Broker using Solace Spring Boot Starters to publish, subscribe, request/reply and store/replay messages.",
             "_links": {
               "reference": [
                 {
@@ -789,13 +788,19 @@
                   "title": "Solace Developer Portal"
                 },
                 {
-                  "href": "https://github.com/SolaceProducts/solace-jms-spring-boot"
+                  "href": "https://github.com/SolaceProducts/solace-spring-boot"
                 }
               ],
-              "guide": {
-                "href": "https://github.com/SolaceProducts/solace-jms-spring-boot/tree/master/solace-jms-sample-app",
-                "title": "Solace sample application using JMS."
-              }
+              "guide": [ 
+                 {
+                   "href": "https://github.com/SolaceProducts/solace-jms-spring-boot/tree/master/solace-jms-sample-app",
+                   "title": "Solace sample application using JMS."
+                 },
+                 {
+                   "href": "https://github.com/SolaceProducts/solace-jms-spring-boot/tree/master/solace-jms-sample-app",
+                   "title": "Solace sample application using JMS."
+                 }
+              ]
             }
           }
         ]
