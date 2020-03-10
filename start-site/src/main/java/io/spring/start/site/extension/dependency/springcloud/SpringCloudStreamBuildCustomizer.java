@@ -42,6 +42,10 @@ class SpringCloudStreamBuildCustomizer implements BuildCustomizer<Build> {
 				build.dependencies().add("cloud-stream-binder-rabbit", "org.springframework.cloud",
 						"spring-cloud-stream-binder-rabbit", DependencyScope.COMPILE);
 			}
+			if (hasDependency("solace", build)) {
+				build.dependencies().add("cloud-stream-binder-solace", "com.solace.spring.cloud",
+						"spring-cloud-stream-binder-solace", DependencyScope.COMPILE);
+			}
 			if (hasDependency("kafka", build)) {
 				build.dependencies().add("cloud-stream-binder-kafka", "org.springframework.cloud",
 						"spring-cloud-stream-binder-kafka", DependencyScope.COMPILE);

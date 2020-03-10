@@ -797,8 +797,8 @@
                    "title": "Solace sample application using JMS."
                  },
                  {
-                   "href": "https://github.com/SolaceProducts/solace-jms-spring-boot/tree/master/solace-jms-sample-app",
-                   "title": "Solace sample application using JMS."
+                   "href": "https://github.com/SolaceProducts/solace-spring-boot/tree/master/solace-spring-boot-samples/solace-java-sample-app",
+                   "title": "Solace sample application using Solace Java API (JCSMP)."
                  }
               ]
             }
@@ -1155,7 +1155,7 @@
           {
             "id": "cloud-turbine-stream",
             "name": "Turbine Stream",
-            "description": "Circuit breaker metric aggregation using spring-cloud-netflix with Turbine and Spring Cloud Stream (requires a binder, e.g. Apache Kafka or RabbitMQ)."
+            "description": "Circuit breaker metric aggregation using spring-cloud-netflix with Turbine and Spring Cloud Stream (requires a binder, e.g. Apache Kafka, RabbitMQ or Solace PubSub+)."
           }
         ]
       },
@@ -1180,17 +1180,17 @@
           {
             "id": "cloud-bus",
             "name": "Cloud Bus",
-            "description": "Links nodes of a distributed system with a lightweight message broker which can used to broadcast state changes or other management instructions (requires a binder, e.g. Apache Kafka or RabbitMQ)."
+            "description": "Links nodes of a distributed system with a lightweight message broker which can used to broadcast state changes or other management instructions (requires a binder, e.g. Apache Kafka, RabbitMQ or Solace PubSub+)."
           },
           {
             "id": "cloud-stream",
             "name": "Cloud Stream",
-            "description": "Framework for building highly scalable event-driven microservices connected with shared messaging systems (requires a binder, e.g. Apache Kafka or RabbitMQ)."
+            "description": "Framework for building highly scalable event-driven microservices connected with shared messaging systems (requires a binder, e.g. Apache Kafka, RabbitMQ or Solace PubSub+)."
           },
           {
             "id": "reactive-cloud-stream",
             "name": "Reactive Cloud Stream",
-            "description": "Reactive messaging microservices with Spring Cloud Stream (requires a binder, e.g. Apache Kafka or RabbitMQ).",
+            "description": "Reactive messaging microservices with Spring Cloud Stream (requires a binder, e.g. Apache Kafka, RabbitMQ or Solace PubSub+).",
             "versionRange": "[2.0.0.RELEASE,2.2.0.M1)"
           }
         ]
